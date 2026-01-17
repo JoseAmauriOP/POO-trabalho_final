@@ -1,6 +1,6 @@
 from planta import Planta
 
-class Pteridófitas(Planta):
+class Pteridofita(Planta):
 
     def exibir_informacoes(self):
         print(f"\n--- Ficha Técnica: ---")
@@ -11,6 +11,7 @@ class Pteridófitas(Planta):
         print(f"Caracteristicas Gerais:")
         print(f"- Ausênsia de Flores")
         print(f"- Ausência de Frutos")
-        print(f"- Possui  Sementes")
+        print(f"- Não Possui Sementes")
         print(f"- Possui Vasos Condutores")
+        print(f"- Reproduz Por Esporos")
         print("-" * 40)
