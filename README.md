@@ -46,11 +46,16 @@ O projeto segue uma arquitetura em camadas para respeitar boas práticas de POO:
 
 ## Evidências de Execução
 
-![alt text](<Captura de tela de 2026-01-20 17-48-07.png>)
+![alt text](img/img_poo1.png)
+
 Demonstração da classificação automática de uma Angiosperma.
 
 ![alt text](img/img_poo2.png)
+
 persistência de dados: sistema carregando registros salvos via JSON.
+
+![alt text](img/img_poo3.png)
+Evidência da estrutura do projeto.
 
 
 ## 👤 Autor
