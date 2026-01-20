@@ -1,4 +1,4 @@
-from planta import Planta
+from .planta import Planta
 
 class Gimnosperma(Planta):
 
@@ -14,3 +14,11 @@ class Gimnosperma(Planta):
         print(f"- Possui  Sementes")
         print(f"- Possui Vasos Condutores")
         print("-" * 40)
+
+    def formatar(self):
+        return {
+            'Nome Popular': self.nome_popular,
+            'Nome Científico':self.nome_cientifico,
+            'Região':self.regiao,
+            'Classificação': 'Gimnosperma'
+            }

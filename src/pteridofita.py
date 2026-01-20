@@ -1,4 +1,4 @@
-from planta import Planta
+from .planta import Planta
 
 class Pteridofita(Planta):
 
@@ -15,3 +15,11 @@ class Pteridofita(Planta):
         print(f"- Possui Vasos Condutores")
         print(f"- Reproduz Por Esporos")
         print("-" * 40)
+
+    def formatar(self):
+        return {
+            'Nome Popular': self.nome_popular,
+            'Nome Científico':self.nome_cientifico,
+            'Região':self.regiao,
+            'Classificação': 'Pteridofita'
+            }

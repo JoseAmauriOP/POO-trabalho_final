@@ -1,4 +1,4 @@
-from planta import Planta
+from .planta import Planta
 
 class Briofita(Planta):
 
@@ -13,4 +13,12 @@ class Briofita(Planta):
         print(f"- Ausência de Frutos")
         print(f"- Ausência de Sementes")
         print(f"- Possui Esporos")
-        print("-" * 40)        
+        print("-" * 40)    
+
+    def formatar(self):
+        return {
+            'Nome Popular': self.nome_popular,
+            'Nome Científico':self.nome_cientifico,
+            'Região':self.regiao,
+            'Classificação': 'Briofita'
+            }    
